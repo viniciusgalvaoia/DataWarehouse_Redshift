@@ -63,8 +63,7 @@ Se você deseja executar esse projeto, você deve finalizar os seguintes passos 
     - `drop` tables if exists
     - `create` tables if not exists
 - **etl.py**
-  - Quando executado, esse script irá 
-    - executar as queries que extrai os arquivos JSON do bucket S3 carregando-os no Redshift
+  - Esse script irá executar as queries que extrai os arquivos JSON do bucket S3 carregando-os no Redshift
 - **README.md**
   - Descrição e instruções sobre o projeto
 - **sql_queries.py**
